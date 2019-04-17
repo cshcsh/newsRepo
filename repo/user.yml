@@ -6,8 +6,3 @@ spring:
     name: myUser
   profiles:
     active: dev
-mybatis: 
-  configuration:
-    map-underscore-to-camel-case: true
-  mapper-locations: mybatis/**/*Mapper.xml
-  typeAliasesPackage: com.csh*.model
